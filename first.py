@@ -1,0 +1,1 @@
+print("Today is the first class")
