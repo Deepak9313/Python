@@ -5,3 +5,5 @@ print(list[2])
 print(len(list1))
 list2 = list(("a","b","c"))
 print(list2)
+list2[0] = 33
+print(list2)
