@@ -1,0 +1,10 @@
+import pyttsx3
+engine = pyttsx3.init()
+input = input("Enter the text you want to listen")
+engine.say(input)
+rate = engine.getProperty('rate')
+print(rate)
+engine.setProperty('rate', 125)
+voices = engine.getProperty('voices')  
+engine.setProperty('voice', voices[1].id)
+engine.runAndWait()
