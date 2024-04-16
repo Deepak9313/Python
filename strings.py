@@ -43,3 +43,8 @@ city = "Delhi|Mumbai|Agra|chennai|Punjab|Haryana"
 spl = res2.split(" ")
 spl2 = city.split("|")
 print(spl2)
+str2 = "Good Evening"
+str2 = str2.replace("Evening","morning")
+print(str2)
+print(str2.startswith("Good"))
+print(str2.endswith("Evening"))
