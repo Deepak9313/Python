@@ -12,9 +12,9 @@ arr7 = np.zeros(shape=(3,4),dtype=int)
 print(arr7)
 # Question : take five values from user and make a numpy array 
 list1 = [10,20,30,40,50]
-# for i in range(0,5):
-#     inp = input("Enter the value\n: ")
-#     list1.append(inp)
+for i in range(0,5):
+    inp = input("Enter the value\n: ")
+    list1.append(inp)
 arr8 = np.array(list1,ndmin=7)
 print(arr1.ndim)
 arr9 = np.full(shape=(4,4),dtype=int,fill_value=66)
