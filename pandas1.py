@@ -1,0 +1,10 @@
+import pandas as pd
+file = pd.read_csv("data.csv")
+data = pd.DataFrame(file)
+print(data)
+print(data.columns)
+print(data['Name'])
+print(data['Dream'])
+print(data.head(2))
+print(data.tail(2))
+print(data.describe())
